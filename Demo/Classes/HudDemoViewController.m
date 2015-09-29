@@ -249,6 +249,18 @@
 	[HUD showWhileExecuting:@selector(myTask) onTarget:self withObject:nil animated:YES];	
 }
 
+- (IBAction)showInline:(id)sender {
+    
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
+    
+    // Configure for text only and offset down
+    hud.mode = MBProgressHUDModeInline;
+    hud.labelText = @"Loading...";
+    hud.removeFromSuperViewOnHide = YES;
+    
+    [hud hide:YES afterDelay:3];
+}
+
 #pragma mark - Execution code
 
 - (void)myTask {
