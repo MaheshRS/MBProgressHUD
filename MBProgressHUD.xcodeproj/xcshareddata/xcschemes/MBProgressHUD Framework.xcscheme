@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D286A7481518C70F00E13FB8"
-               BuildableName = "libMBProgressHUD.a"
-               BlueprintName = "MBProgressHUD Static Library"
+               BlueprintIdentifier = "1D104D791ACA36CC00973364"
+               BuildableName = "MBProgressHUD.framework"
+               BlueprintName = "MBProgressHUD Framework"
                ReferencedContainer = "container:MBProgressHUD.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D286A7481518C70F00E13FB8"
-            BuildableName = "libMBProgressHUD.a"
-            BlueprintName = "MBProgressHUD Static Library"
+            BlueprintIdentifier = "1D104D791ACA36CC00973364"
+            BuildableName = "MBProgressHUD.framework"
+            BlueprintName = "MBProgressHUD Framework"
             ReferencedContainer = "container:MBProgressHUD.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1D104D791ACA36CC00973364"
+            BuildableName = "MBProgressHUD.framework"
+            BlueprintName = "MBProgressHUD Framework"
+            ReferencedContainer = "container:MBProgressHUD.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
